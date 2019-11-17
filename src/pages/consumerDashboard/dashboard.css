@@ -1,0 +1,31 @@
+
+.category{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4px;
+}
+
+.strip{
+    background: yellow;
+     width: 95%; 
+}
+
+.more{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.pImg{
+    width: inherit;
+    height: 160px;
+    border-radius: 6px;
+   
+
+}
+
+@media(max-width: 425px){
+    .category{
+        font-size: 20px;
+    }
+}

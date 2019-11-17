@@ -11,10 +11,19 @@ const Layout = (props) => {
                     <span className="fa fa-shopping-bag mx-3 logo"></span>
                     {'Z-Bag'}
                 </Navbar.Brand>
-                <Navbar.Collapse className="justify-content-end">
-                    <Nav.Link style={{ color: "yellow" }}>Home</Nav.Link>
-                    <Nav.Link style={{ color: "yellow" }} >Login</Nav.Link>
-                </Navbar.Collapse>
+                {
+                    props.auth === true
+                        ?
+                        <Navbar.Collapse className="justify-content-end">
+                            <Nav.Link style={{ color: "yellow" }} >Login</Nav.Link>
+                        </Navbar.Collapse>
+                        :
+                        <Navbar.Collapse className="justify-content-end">
+                            <Nav.Link style={{ color: "yellow" }} >Username</Nav.Link>
+                            <Nav.Link style={{ color: "lightgray" }} ><span className="fa fa-gear"></span></Nav.Link>
+                        </Navbar.Collapse>
+                }
+
             </Navbar>
             <div>
                 {props.children}
