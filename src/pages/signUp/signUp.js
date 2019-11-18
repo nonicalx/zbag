@@ -3,12 +3,16 @@ import { Tabs, Tab } from 'react-bootstrap'
 import Consumer from '../../components/consumerSignUp/consumerSignUp'
 import Seller from '../../components/sellerSignUp/sellerSignUp'
 import './signUp.css'
+import { Link } from 'react-router-dom'
 
 const SignUp = () => {
 
 
     return (
         <div>
+            <Link to="/">
+                <span className="fa fa-arrow-left mx-4 my-4" style={{ color: "yellow", fontSize: 26 }}></span>
+            </Link>
             <div className="text-center bigLogo mb-3">
                 <span className="fa fa-shopping-bag"></span>
             </div>

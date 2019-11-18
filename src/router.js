@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import Home from './pages/home/home'
 import Layout from './components/layout/layout'
 import SignUp from './pages/signUp/signUp'
-import ConsumerDashBoard from './pages/consumerDashboard/consumerDashboard'
+import Catalog from './pages/catalog/catalog'
+import Login from './pages/login/login'
 const MyRoute = ({ Component, path, layout, exact, auth }) => {
     return (
         <Route exact={exact || true} path={path} render={props => {
-            if (layout === true) {
+            if (layout === true && (auth === false || auth === undefined || auth === null)) {
                 return (
                     <Layout>
                         <Component {...props} />
@@ -34,7 +35,8 @@ const Routes = () => {
             <Switch>
                 <MyRoute path="/" Component={Home} exact layout={true} />
                 <MyRoute path="/signup" Component={SignUp} exact />
-                <MyRoute path="/dashboard" Component={ConsumerDashBoard} exact layout={true} auth={true} />
+                <MyRoute path="/catalog" Component={Catalog} exact layout={true} auth={true} />
+                <MyRoute path="/login" Component={Login} exact />
             </Switch>
         </Router>
     )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './home.css'
 
 
@@ -10,15 +11,16 @@ const Home = () => {
 
 
             <div className="text-center" style={{ color: "white" }}>
-                <h2 className="slogan">Secure the Bag, at the Lowest Cost</h2>
-                <p className="subtext mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                <h2 className="slogan">Shopping just got Zuper Eazy</h2>
+                <p className="subtext mx-auto">Shopping at the lowest price you can get</p>
             </div>
-            <div className="text-center mt-4">
-                <button className="btn signUpBtn">
-                    Join now
+            <Link to='/signup'>
+                <div className="text-center mt-4">
+                    <button className="btn signUpBtn">
+                        Join now
                 </button>
-            </div>
-
+                </div>
+            </Link>
             <div className="socials">
                 <span className="fa fa-facebook-square mx-3"></span>
                 <span className="fa fa-twitter-square mx-3"></span>
