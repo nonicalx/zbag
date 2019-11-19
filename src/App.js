@@ -3,7 +3,9 @@ import Routes from './router'
 // import './app.css'
 function App() {
   return (
-    <Routes />
+    <div style={{ background: "#343a40" }}>
+      <Routes />
+    </div>
   );
 }
 
