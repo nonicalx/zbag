@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
-
+import Footer from '../footer/footer'
 
 const Layout = (props) => {
     return (
@@ -27,6 +27,11 @@ const Layout = (props) => {
             </Navbar>
             <div>
                 {props.children}
+            </div>
+
+
+            <div>
+                <Footer />
             </div>
         </div>
 

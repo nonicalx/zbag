@@ -2,7 +2,7 @@
     font-size: 30px
 }
 .slogan{
-    margin-top: 24%;
+    margin-top: 10%;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 1vh 2vw;
@@ -31,10 +31,8 @@
 }
 
 .socials{
-    position: absolute;
     color: yellow;
     font-size: 26px;
-    bottom: 0;
 
 }
 
