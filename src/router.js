@@ -5,6 +5,7 @@ import Layout from './components/layout/layout'
 import SignUp from './pages/signUp/signUp'
 import Catalog from './pages/catalog/catalog'
 import Login from './pages/login/login'
+import UserDashboard from './pages/userDashboard/userDashboard'
 const MyRoute = ({ Component, path, layout, exact, auth }) => {
     return (
         <Route exact={exact || true} path={path} render={props => {
@@ -37,6 +38,7 @@ const Routes = () => {
                 <MyRoute path="/signup" Component={SignUp} exact />
                 <MyRoute path="/catalog" Component={Catalog} exact layout={true} auth={true} />
                 <MyRoute path="/login" Component={Login} exact />
+                <MyRoute path="/dashboard" Component={UserDashboard} exact layout={true} auth={true} />
             </Switch>
         </Router>
     )

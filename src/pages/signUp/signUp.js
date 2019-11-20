@@ -5,11 +5,13 @@ import Seller from '../../components/sellerSignUp/sellerSignUp'
 import './signUp.css'
 import { Link } from 'react-router-dom'
 
+
+
 const SignUp = () => {
 
 
     return (
-        <div>
+        <div style={{ background: "#343a40" }}>
             <Link to="/">
                 <span className="fa fa-arrow-left mx-4 my-4" style={{ color: "yellow", fontSize: 26 }}></span>
             </Link>
