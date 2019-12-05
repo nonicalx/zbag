@@ -6,7 +6,8 @@ import { LoginApi } from '../../utils/apis'
 const Login = (props) => {
 
     const [data, setData] = useState({})
-
+    const [disable, setDisable] = useState(false);
+    
     const handleChange = (e) => {
         setData({ ...data, [e.target.id]: e.target.value })
         console.log("data", data)
@@ -15,6 +16,7 @@ const Login = (props) => {
     const handleLogin = async (e) => {
         e.preventDefault();
         let result = await LoginApi(data)
+        props.history.push({pathname: "/catalog"})
         console.log('result', result)
     }
 

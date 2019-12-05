@@ -1,19 +1,22 @@
-import axios from 'axios'
+import axios from "axios";
 
-let baseurl = 'https://zbag.herokuapp.com/api';
-let baseurl1 = 'http://localhost:8080/api'
+let baseurl = {
+  live: "https://zbag.herokuapp.com/api",
+  local: "http://localhost:8080/api"
+};
 
 const SignUpApi = (data = {}) => {
-    return axios.post(`${baseurl}/user/register`, data).then(result => result.data).catch(err => err);
-}
+  return axios
+    .post(`${baseurl.live}/user/register`, data)
+    .then(result => result.data)
+    .catch(err => err);
+};
 
 const LoginApi = (data = {}) => {
-    return axios.post(`${baseurl}/user/login`, data).then(result => result.data).catch(err => err);
-}
+  return axios
+    .post(`${baseurl.local}/user/login`, data)
+    .then(result => result.data)
+    .catch(err => err);
+};
 
-
-
-export {
-    SignUpApi,
-    LoginApi
-}
+export { SignUpApi, LoginApi };
