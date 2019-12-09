@@ -36,7 +36,7 @@ const Cart = () => {
               <div>Item Price: $100</div>
             </div>
           </div>
-          <hr style={{ background: "yellow" }} />
+          <hr style={{ background: "rgb(255,173,0)" }} />
           <div className="row" style={{ margin: 0, marginTop: "2.5rem" }}>
             <div className="col-4">
               <div className="cartItemImg d-flex align-items-center justify-content-center">

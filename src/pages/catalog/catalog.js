@@ -10,7 +10,7 @@ const ConsumerDashboard = () => {
       <div className="row" style={{ margin: 0 }}>
         <div className="col-12">
           <div className="strip mx-auto mt-5">
-            <span className="category">New</span>
+            <span className="category">New Messages</span>
           </div>
         </div>
         <div className="row mt-3 mx-auto" style={{ margin: 0, width: "95%" }}>
@@ -34,11 +34,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Jbl Speaker</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">technokrat</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -61,11 +62,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Sodo headset</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">technokrat</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -88,11 +90,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Black cross ear rings</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">Nicy icy</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -115,11 +118,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Black cross ear rings</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">Nicy icy</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
         </div>
@@ -128,7 +132,7 @@ const ConsumerDashboard = () => {
       <div className="row" style={{ margin: 0 }}>
         <div className="col-12">
           <div className="strip mx-auto mt-5">
-            <span className="category">Men's</span>
+            <span className="category">Mp3 Series</span>
           </div>
         </div>
         <div className="row mt-3 mx-auto" style={{ margin: 0, width: "95%" }}>
@@ -152,11 +156,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Jbl Speaker</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">technokrat</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -179,11 +184,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Sodo headset</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">technokrat</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -206,11 +212,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Black cross ear rings</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">Nicy icy</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -233,11 +240,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Black cross ear rings</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">Nicy icy</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
         </div>
@@ -246,7 +254,7 @@ const ConsumerDashboard = () => {
       <div className="row" style={{ margin: 0 }}>
         <div className="col-12">
           <div className="strip mx-auto mt-5">
-            <span className="category">Electronics</span>
+            <span className="category">Conference messages</span>
           </div>
         </div>
         <div className="row mt-3 mx-auto" style={{ margin: 0, width: "95%" }}>
@@ -270,11 +278,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Jbl Speaker</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">technokrat</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -297,11 +306,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Sodo headset</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">technokrat</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -324,11 +334,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Black cross ear rings</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">Nicy icy</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -351,11 +362,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Black cross ear rings</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">Nicy icy</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
         </div>
@@ -364,7 +376,7 @@ const ConsumerDashboard = () => {
       <div className="row" style={{ margin: 0 }}>
         <div className="col-12">
           <div className="strip mx-auto mt-5">
-            <span className="category">Phone</span>
+            <span className="category">Single messages</span>
           </div>
         </div>
         <div className="row mt-3 mx-auto" style={{ margin: 0, width: "95%" }}>
@@ -388,11 +400,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Jbl Speaker</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">technokrat</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -415,11 +428,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Sodo headset</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">technokrat</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -442,11 +456,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Black cross ear rings</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">Nicy icy</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
           <div className="col-md-3">
@@ -469,11 +484,12 @@ const ConsumerDashboard = () => {
               </span>
             </div>
             <div>
-              <div className="itemName">Black cross ear rings</div>
-              <span style={{ color: "white", fontWeight: 100, fontSize: 13 }}>
-                sold by{" "}
+              <div className="itemName">Thanksgiving</div>
+              <span style={{ color: "rgb(122, 120, 120)", fontWeight: 100, fontSize: 13 }}>
+                by{" "}
               </span>
-              <span className="productOwner">Nicy icy</span>
+              <span className="productOwner">CeCe Ekwuagana</span>
+              <div className="productPrice">&#8358;100.00</div>
             </div>
           </div>
         </div>

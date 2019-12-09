@@ -7,7 +7,7 @@ const Layout = props => {
   return (
     <div>
       <Navbar bg="dark" className="shadow">
-        <Navbar.Brand style={{ color: "yellow" }}>
+        <Navbar.Brand style={{ color: "rgb(255,173,0)" }}>
           <span className="fa fa-shopping-bag mx-3 logo"></span>
           {"Z-Bag"}
         </Navbar.Brand>
@@ -16,10 +16,10 @@ const Layout = props => {
           <div id="trans"></div>
           {props.auth === true ? (
             <>
-              <Nav.Link style={{ color: "yellow" }}>Username</Nav.Link>
-              <Nav.Link style={{ color: "yellow" }}>
+              <Nav.Link style={{ color: "rgb(255,173,0)" }}>Username</Nav.Link>
+              <Nav.Link style={{ color: "rgb(255,173,0)" }}>
                 <Link to="/cart">
-                  <span className="fa fa-shopping-cart">
+                  <span style={{ color: "rgb(255,173,0)" }} className="fa fa-shopping-cart">
                     <span className="cartCount">3</span>
                   </span>
                 </Link>
@@ -30,10 +30,10 @@ const Layout = props => {
             </>
           ) : (
             <>
-              <Nav.Link style={{ color: "yellow" }} href="/login">
+              <Nav.Link style={{ color: "rgb(255,173,0)" }} href="/login">
                 Login
               </Nav.Link>
-              <Nav.Link style={{ color: "yellow" }}>
+              <Nav.Link style={{ color: "rgb(255,173,0)" }}>
                 <Link to="/cart">
                   <span className="fa fa-shopping-cart">
                     <span className="cartCount">12</span>

@@ -1,15 +1,17 @@
 
 .category{
-    font-size: 30px;
+    font-size: 23px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 4px;
+    padding-left: 10px;
+    color: #fff;
 }
 
 .strip{
-    background: yellow;
-     width: 95%; 
-     cursor: pointer;
+    background: rgb(255,173,0);
+    width: 95%; 
+    cursor: pointer;
+    border-radius: 15px;
 }
 
 .more{
@@ -26,13 +28,17 @@
 
 .productOwner{
     font-size: 14px;
-    color: white;
+    color: rgb(122, 120, 120);
     font-weight: bold;
+}
+
+.productPrice{
+    color: rgb(255,173,0);
 }
 
 .itemName{
     font-size: 18px;
-    color: yellow;
+    color: rgb(255,173,0);
     font-weight: bold;
 }
 
